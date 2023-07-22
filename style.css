@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  padding: 5%;
+}
+.main {
+  padding: 15%;
+}
+.footer {
+  padding: 3%;
+}
+.top img {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+.top p {
+  position: absolute;
+  bottom: 500px;
+  font-family: uriel;
+  font-size: 70px;
+  color: rgb(8, 8, 142);
+}
+@font-face {
+  font-family: uriel;
+  src: url(./fonts/Sparkle\ Dream.ttf);
+}
+.main img {
+  position: relative;
+  bottom: 150px;
+  right: 230px;
+  width: 1523px;
+  height: 900px;
+  display: inline-block;
+}
+.top ul li {
+  display: inline;
+  list-style-type: none;
+  font-family: uriel;
+  font-size: 90px;
+  position: relative;
+  padding: 20px;
+  left: 210px;
+  bottom: 70px;
+}
+a {
+  color: rgb(8, 8, 142);
+}
+.main p {
+  position: absolute;
+  top: 265px;
+  left: 20px;
+  font-family: uriel;
+  font-size: 100px;
+  color: rgba(245, 245, 220, 0.642);
+}
+
+.footer p {
+  font-family: uriel;
+  font-size: 40px;
+  position: absolute;
+  top: 1400px;
+  right: 1000px;
+}
+.footer a {
+  position: absolute;
+  top: 1500px;
+  right: 970px;
+}
+.txtEmail {
+  position: absolute;
+  left: 700px;
+}
+.emailLogo img {
+  position: relative;
+  left: 250px;
+  top: 45px;
+  width: 120px;
+}
+.txtProjects {
+  position: absolute;
+  left: 1000px;
+}
+.footer .cv {
+  position: absolute;
+  left: 1000px;
+  top: 1600px;
+  font-family: uriel;
+  color: black;
+  font-size: 25px;
+}
+.footer .Air-Wiki {
+  position: absolute;
+  left: 1000px;
+  top: 1540px;
+  font-family: uriel;
+  color: black;
+  font-size: 25px;
+}
+.mainCities img {
+  width: 100px;
+  height: 100px;
+}
+.mainCities table td {
+  border: solid;
+  border-spacing: 0px;
+}
+.mainCities table {
+  border: solid;
+  border-spacing: 0px;
+  color: rgb(8, 8, 142);
+  width: 1300px;
+  text-align: center;
+  position: relative;
+  left: 90px;
+}
+.mainContact h1 {
+  text-align: center;
+  font-family: uriel;
+  font-size: 90px;
+}
+.mainContact input {
+  font-family: uriel;
+  border-radius: 5px;
+  color: rgb(8, 8, 142);
+  width: 700px;
+  height: 60px;
+  margin: 20px;
+  font-size: 35px;
+}
+.mainContact label {
+  font-family: uriel;
+  font-size: 35px;
+}
+.mainVideos li {
+  display: inline-block;
+}
+.mainVideos iframe {
+  width: 450px;
+}
